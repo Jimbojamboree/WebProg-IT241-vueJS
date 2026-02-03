@@ -398,6 +398,17 @@
             </div>
         </div>
 
+        <h1>Example 'v-for' to create images</h1>
+<p>The 'v-for' directive is used to create images based on the 'manyFoods' array in the Vue instance.</p>
+
+<div id="app">
+
+  <div>
+    <img v-for="x in manyFoods" v-bind:src="x">
+  </div>
+
+</div>
+
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src=""js/scripts.js></script>
 
