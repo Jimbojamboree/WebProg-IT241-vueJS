@@ -7,8 +7,8 @@ import Comment from './components/Comment.vue'
 import CommentForm from './components/CommentForm.vue'
 
 const app = createApp(App)
-app.component('food-item', FoodItem)
-app.component('food-item2', FoodItem2)
-app.component('comment',Comment)
-app._component('Comment-form',CommentForm)
+app.component('FoodItem', FoodItem)
+app.component('FoodItem2', FoodItem2)
+app.component('Comment',Comment)
+app._component('CommentForm',CommentForm)
 app.mount('#app')

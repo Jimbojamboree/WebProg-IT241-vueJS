@@ -3,7 +3,7 @@
   <food-item/>
   <food-item/>
   <food-item/>
-  <comment-form/>
+  <Comment-form/>
   <comment/>
    
 
